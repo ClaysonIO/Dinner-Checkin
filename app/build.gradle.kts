@@ -16,6 +16,16 @@ android {
         versionCode = 1
         versionName = "1.0"
     }
+    // One fixed signing key, kept in the repo on purpose (it is not a secret), so that every
+    // build, from any machine or from CI, can be installed as an update over the previous one.
+    signingConfigs {
+        getByName("debug") {
+            storeFile = file("household.keystore")
+            storePassword = "android"
+            keyAlias = "household"
+            keyPassword = "android"
+        }
+    }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
