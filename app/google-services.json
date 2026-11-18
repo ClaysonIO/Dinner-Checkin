@@ -1,18 +1,28 @@
 {
   "project_info": {
-    "project_number": "000000000000",
-    "project_id": "replace-with-your-firebase-project",
-    "storage_bucket": "replace-with-your-firebase-project.firebasestorage.app"
+    "project_number": "276344061461",
+    "project_id": "dinner-checkin",
+    "storage_bucket": "dinner-checkin.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
-        "android_client_info": { "package_name": "io.clayson.dinnercheckin" }
+        "mobilesdk_app_id": "1:276344061461:android:3914689382b801c6b4181c",
+        "android_client_info": {
+          "package_name": "io.clayson.dinnercheckin"
+        }
       },
       "oauth_client": [],
-      "api_key": [ { "current_key": "PLACEHOLDER-download-the-real-file-from-the-Firebase-console" } ],
-      "services": { "appinvite_service": { "other_platform_oauth_client": [] } }
+      "api_key": [
+        {
+          "current_key": "AIzaSyCn25XJ7JHO7PKAW5Ofoepi0qlYhziy1iA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
